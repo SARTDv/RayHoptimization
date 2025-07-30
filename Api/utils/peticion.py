@@ -28,9 +28,9 @@ payload = {
     "impulsive": 0.6,
     "ss": 0.7
 }
-resp = requests.post(f"{BASE}/sequential-search", json=payload)
-print(resp.text)
-
-#print("\n--- Parallel Search & Predict ---")
-#resp = requests.post(f"{BASE}/parallel-search", json=payload)
+#resp = requests.post(f"{BASE}/sequential-search", json=payload)
 #print(resp.text)
+
+print("\n--- Parallel Search & Predict ---")
+resp = requests.post(f"{BASE}/parallel-search", json=payload)
+print(resp.text)

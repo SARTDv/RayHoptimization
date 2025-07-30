@@ -20,4 +20,4 @@ CMD ["npm", "run", "dev", "--", "--host"]
 # Construir la imagen:
 # docker build -t bayronj/rayclient .
 #comando para correr la imagen
-# docker run -p 5173:5173 -e VITE_API_URL=http://localhost:5000 bayronj/rayclient
+# docker run -p 5173:5173 --network host -e VITE_API_URL=http://10.0.136.9:5000 bayronj/rayclient

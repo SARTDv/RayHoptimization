@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Clonar el repositorio
-RUN git clone https://github.com/BayronJDv/Ray-HOptimization.git .
+RUN git clone https://github.com/BayronJDv/RayHoptimization.git .
 
 # Instalar dependencias de Python
 RUN pip install --no-cache-dir -r Api/requirements.txt

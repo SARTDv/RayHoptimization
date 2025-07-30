@@ -6,7 +6,7 @@ WORKDIR /app
 RUN apk update && apk add git
 
 # Clonar el repositorio
-RUN git clone https://github.com/BayronJDv/Ray-HOptimization.git .
+RUN git clone https://github.com/BayronJDv/RayHoptimization.git .
 
 WORKDIR /app/Client
 

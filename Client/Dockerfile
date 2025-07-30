@@ -16,3 +16,6 @@ EXPOSE 5173
 
 # Comando para iniciar la aplicación en modo desarrollo
 CMD ["npm", "run", "dev", "--", "--host"]
+
+#comando para correr la imagen
+# docker run -p 5173:5173 -e VITE_API_URL=http://localhost:5000 bayronj/rayclient

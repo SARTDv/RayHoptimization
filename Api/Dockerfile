@@ -28,4 +28,4 @@ CMD ray start --head --port=6379 --node-ip-address=0.0.0.0 && python app.py
 # construir la imagen:
 # docker build -t bayronj/rayapi . 
 # correr la imagen: 
-# docker run -p 5000:5000 -p bayronj/rayapi
+# docker run -p 5000:5000 bayronj/rayapi
